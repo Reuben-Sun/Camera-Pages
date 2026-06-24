@@ -2,7 +2,7 @@ export type Section = { heading: string; body: string[] };
 export type Doc = { title: string; updated: string; intro: string; sections: Section[] };
 export type Bilingual = { en: Doc; zh: Doc };
 
-export const SUPPORT_EMAIL = "support@stepfun.com";
+export const SUPPORT_EMAIL = "reubensun728@gmail.com";
 
 export const privacy: Bilingual = {
   en: {
